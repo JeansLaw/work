@@ -2,7 +2,7 @@ import json
 
 import requests
 
-url="http://test-api2.ppwang.com:8800/index.php?c=test&m=requestTupuCheakTest&type=0&imageUrl=https://test-1252710231.cos.ap-guangzhou.myqcloud.com/f9cc69a51b6463cce40919bbec4519c0"
+url="xxx"
 
 res=requests.get(url)
 r=str((res.text)[:-5])
