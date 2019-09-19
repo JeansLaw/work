@@ -1,11 +1,7 @@
 # 配置测试环境的常量
 env = {
-    # 正式环境
-    # "url":"http://api2.ppwang.com",
     # 测试环境
-    "url": "http://test-api2.ppwang.com",
-    # 灰度环境
-    # "url":"http://web0-api2.ppwang.com",
+    "url": "http://xxxx.com",
     "user": {
         # 木子田心捷
         "961359": {
