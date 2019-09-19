@@ -7,7 +7,7 @@
     域名为https://test-1252710231.cos.ap-guangzhou.myqcloud.com/的图片图谱那边都会下载失败
     
     2
-    url="http://test-api2.ppwang.com:8800/index.php?c=test&m=requestTupuCheakTest&type=0&imageUrl=http://test-img1.ppwang.com/other/201909/17/5ccf14087707ee4dddd042c68df4b749.gif"
+
     # 访问
     res=requests.get(url)
     r=str((res.text)[:-5])
