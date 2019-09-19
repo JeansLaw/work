@@ -56,7 +56,7 @@ class Test(unittest.TestCase):
     def test_adv(self):
         # 遍历文件生成数组
         fileUtil = File.ReadFile()
-        testpath = r"D:\work\批批网\v6.5\色情暴恐广告监测测试数据"
+        testpath = r"D:\work"
         fileList = fileUtil.getFileList(testpath, [])
 
         # 上传文件到cos
