@@ -11,8 +11,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
-secret_id = 'AKIDq66QZUvgw6VkyoveeYLxSowsHVUDc0kf'  # 替换为用户的 secretId
-secret_key = 'ynBNNPI152uiHbFrOActDH2YtzylMbei'  # 替换为用户的 secretKey
+secret_id = ''  # 替换为用户的 secretId
+secret_key = ''  # 替换为用户的 secretKey
 region = 'ap-guangzhou'  # 替换为用户的 Region
 token = None  # 使用临时密钥需要传入 Token，默认为空，可不填
 scheme = 'https'  # 指定使用 http/https 协议来访问 COS，默认为 https，可不填
@@ -33,7 +33,7 @@ class Util():
         with open(filePath, 'rb') as fp:
             fileName = self.__md5(fileName)
             client.put_object(
-                Bucket='test-1252710231',
+                Bucket='test-125',
                 Body=fp,
                 Key=fileName + ".jpg",
                 StorageClass='STANDARD',
